@@ -16,10 +16,11 @@ Reliable road marking segmentation is critical for environment perception in Adv
 ## Training the Model
 
 This repository contains 4 models, and 4 files to train each model:
-    - **The baseline U-Net model**: `unet_main.py`
-    - **U-Net with residual connections added**: `unet_residual_main.py`
-    - **U-Net with SE blocks added**: `unet_se_block_main.py`
-    - **The full RoadMarkResUNet model added, with residual connections and SE blocks**: `resunet_main.py`
+
+- **The baseline U-Net model**: `unet_main.py`
+- **U-Net with residual connections added**: `unet_residual_main.py`
+- **U-Net with SE blocks added**: `unet_se_block_main.py`
+- **The full RoadMarkResUNet model added, with residual connections and SE blocks**: `resunet_main.py`
 
 To train each model, run the corrosponding python file with `python3 <file name>`
 
